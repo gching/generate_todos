@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = GenerateTodos::VERSION
   spec.authors       = ["Gavin Ching"]
   spec.email         = ["gavinchingy@gmail.com"]
-  spec.description   = %q{Helps generates a list of TODO's from looking through your project directory. Either outputs to shell or create a pleasantly looking markdown'ed TODO.md}
-  spec.summary       = %q{Helps generates list of TODO's}
+  spec.description   = %q{Helps generates a list of todo's from looking through your project directory. Supports a few formats.}
+  spec.summary       = %q{Helps generates list of todo's}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,12 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rspec-nc"
+  spec.add_development_dependency "guard"
+  spec.add_development_dependency "guard-rspec"
+  spec.add_development_dependency "pry"
+  spec.add_development_dependency "pry-remote"
+  spec.add_development_dependency "pry-nav"
+  spec.add_development_dependency "coveralls"
 end
